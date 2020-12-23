@@ -26,4 +26,8 @@ public class User {
 		return trips;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		return obj instanceof User;
+	}
 }
